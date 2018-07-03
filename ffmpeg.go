@@ -1,7 +1,7 @@
 package thumbnailer
 
 // #cgo pkg-config: libavcodec libavutil libavformat
-// #cgo CFLAGS: -std=c11
+// #cgo CFLAGS: -std=c11 -w
 // #include "ffmpeg.h"
 import "C"
 import (
