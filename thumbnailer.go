@@ -1,7 +1,7 @@
 package thumbnailer
 
 // #cgo pkg-config: GraphicsMagick++
-// #cgo CFLAGS: -std=c11 -O3 -D_POSIX_C_SOURCE
+// #cgo CFLAGS: -std=c11 -O3 -D_POSIX_C_SOURCE -w
 // #cgo CXXFLAGS: -std=c++1z -O3
 // #include "init.h"
 // #include "thumbnailer.h"
